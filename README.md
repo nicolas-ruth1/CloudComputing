@@ -1,4 +1,4 @@
-# Getting started
+This is my README file.
 
 This repository is a sample application for users following the getting started guide at https://docs.docker.com/get-started/.
 
