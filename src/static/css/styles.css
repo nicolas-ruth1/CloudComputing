@@ -1,16 +1,16 @@
 body {
-    background-color: #ff0000;
+    background-color: #29936c;
     margin-top: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .item {
-    background-color: white;
+    background-color: rgb(153, 153, 153);
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
     border-radius: 5px;
-    box-shadow: 0 0 1em #ccc;
+    box-shadow: 0 0 1em rgb(69, 69, 69);
     transition: all .2s ease-in-out;
 }
 
