@@ -25,6 +25,7 @@ body {
 }
 
 .item {
+    margin-top: 50px;
     background-color: rgb(225, 225, 225);
     padding: 15px;
     margin-bottom: 15px;
