@@ -12,6 +12,9 @@ header {
 header, p {
     font-family: 'Courier New', Courier, monospace;
     color: beige;
+    margin: 20px;
+    padding-top: 5px;
+    padding-left: 50px;
 }
 
 body {
