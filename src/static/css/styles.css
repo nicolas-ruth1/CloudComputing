@@ -58,3 +58,7 @@ body {
 button:focus {
     border: 1px solid #333;
 }
+
+#root {
+    margin-top: 10em;
+}
