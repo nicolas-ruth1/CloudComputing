@@ -1,9 +1,15 @@
 header {
-    margin-top: 50px;
-    background-color: #32b786;
+    background-color: #38c18f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
 
-header, title {
+header, p {
     font-family: 'Courier New', Courier, monospace;
     color: beige;
 }
