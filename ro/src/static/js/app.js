@@ -75,18 +75,7 @@ function AddItemForm({ onNewItem }) {
 
     const submitNewItem = e => {
         e.preventDefault();
-        setSubmitting(true);
-        fetch('/items', {
-            method: 'POST',
-            body: JSON.stringify({ name: newItem }),
-            headers: { 'Content-Type': 'application/json' },
-        })
-            .then(r => r.json())
-            .then(item => {
-                onNewItem(item);
-                setSubmitting(false);
-                setNewItem('');
-            });
+        // Do nothing when trying to submit
     };
 
     return (
@@ -98,13 +87,14 @@ function AddItemForm({ onNewItem }) {
                     type="text"
                     placeholder="New Item"
                     aria-describedby="basic-addon1"
+                    disabled  // Disable the input field
                 />
-                <InputGroup.Append>
-                </InputGroup.Append>
+                {/* Remove the submit button */}
             </InputGroup>
         </Form>
     );
 }
+
 
 function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
     const { Container, Row, Col } = ReactBootstrap;
